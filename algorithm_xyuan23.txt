@@ -1,0 +1,31 @@
+The whole program will start with importing System specific parameters and Miscellaneous opearting system interfaces throughout the whole program.
+Delete all non-digit characters
+
+Read the template and gather information about the structure
+
+confirmed what we have to create and draft down the structure
+
+we have to create functions usage(), sanitize(), size_check(), range_check(), leap_year()
+
+The main program will be asking the user to input their own date from their keyboard following by the formats: YYYYMMDD | YYYY/MM/DD | YYYY-NN-DD | YYYY.MM.DD
+
+We also have to put several error output messages
+
+Wrong Day Entered
+Wrong Month entered
+Year out of range
+Wrong Date entered
+
+The usuage() function will be the primary capacity to run in the content since it will test if there is any information following the content and will show how to utilize it appropriately.
+You can also use argument that can point to your script file easily, you also have to set it up the day,month and year into required format
+
+The sanitize() function dismantles characters that are not of the given allow_chars variable and eliminates them from the yield.
+
+The size_check() function arguement isn't equivalent to 8 characters, it will show the status as False. On the off chance that it is equivalent to 8 characters, at that point the status will return as True.
+
+The range_check() function will check to decide whether the year, month, or date is inside the boundaries in the arguement. On the off chance that it is False, at that point it will print out a blunder.
+When you do the range_check function you also have to consider the leap year usuage prevent the wrong error message has been enterted.
+
+The leap_year () function will at that point check if the month is a jump year or not and decide whether Feburary will have 29 days in the month assuming True. Else it will stay as 28.
+
+It won't have to print the sanitize that you have inside of the script
