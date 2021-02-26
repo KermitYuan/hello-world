@@ -1,3 +1,6 @@
+Author:xyuan23 
+140565185
+Section NAA
 The whole program will start with importing System specific parameters and Miscellaneous opearting system interfaces throughout the whole program.
 Delete all non-digit characters
 
